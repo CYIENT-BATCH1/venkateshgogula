@@ -1,0 +1,12 @@
+2) EVEN AND ODD NUMBER USING CONDITIONAL OPERATOR
+#include <stdio.h>
+
+
+
+int main()
+{
+int n;
+printf("enter the no");
+scanf("%d",&n);
+n%2==0?printf("even"):printf("odd");
+}
